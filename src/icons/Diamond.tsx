@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Diamond/premium
+ * @param {IconProps} props
  * @prop width: number (20)
  * @prop height: number (19)
  * @prop color: string (black)

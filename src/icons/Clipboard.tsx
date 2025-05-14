@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Clipboard
+ * @param {IconProps} props
  * @prop width: number (14)
  * @prop height: number (16)
  * @prop color: string (black)

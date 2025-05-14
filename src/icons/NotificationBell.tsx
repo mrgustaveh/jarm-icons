@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Notification/bell
+ * @param {IconProps} props
  * @prop width: number (18)
  * @prop height: number (20)
  * @prop color: string (black)

@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Chevron down
+ * @param {IconProps} props
  * @prop width: number (10)
  * @prop height: number (6)
  * @prop color: string (black)

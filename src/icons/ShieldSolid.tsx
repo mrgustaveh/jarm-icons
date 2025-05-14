@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Shield solid (shield with solid background)
+ * @param {IconProps} props
  * @prop width: number (20)
  * @prop height: number (24)
  * @prop color: string (black)

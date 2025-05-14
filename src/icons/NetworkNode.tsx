@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Network/node
+ * @param {IconProps} props
  * @prop width: number (24)
  * @prop height: number (24)
  * @prop color: string (black)

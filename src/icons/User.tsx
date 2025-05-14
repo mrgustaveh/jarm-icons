@@ -3,9 +3,10 @@ import { IconProps } from "./type";
 
 /**
  * User/profile/account
- * width: number (18)
- * height: number (20)
- * color: string (black)
+ * @param {IconProps} props
+ * @prop width: number (18)
+ * @prop height: number (20)
+ * @prop color: string (black)
  */
 const User: FC<IconProps> = ({ width = 18, height = 20, color = "black" }) => (
   <svg

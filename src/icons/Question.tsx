@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Question/FAQ/info
+ * @param {IconProps} props
  * @prop width: number (16)
  * @prop height: number (16)
  * @prop color: string (black)

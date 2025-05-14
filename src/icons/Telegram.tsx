@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Telegram
+ * @param {IconProps} props
  * @prop width: number (16)
  * @prop height: number (13)
  * @prop color: string (black)

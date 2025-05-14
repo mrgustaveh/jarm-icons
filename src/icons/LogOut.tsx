@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Log out/Log off/Power off
+ * @param {IconProps} props
  * @prop width: number (20)
  * @prop height: number (22)
  * @prop color: string (black)

@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Warning/Triangle with exclamation mark
+ * @param {IconProps} props
  * @prop width: number (20)
  * @prop height: number (18)
  * @prop color: string (black)

@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Options/three-dots circle/more
+ * @param {IconProps} props
  * @prop width: number (18)
  * @prop height: number (18)
  * @prop color: string (black)

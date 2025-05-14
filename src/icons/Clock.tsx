@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Clock/time
+ * @param {IconProps} props
  * @prop width: number (20)
  * @prop height: number (20)
  * @prop color: string (black)

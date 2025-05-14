@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Arrow up cirlce
+ * @param {IconProps} props
  * @prop width: number (22)
  * @prop height: number (22)
  * @prop color: string (black)

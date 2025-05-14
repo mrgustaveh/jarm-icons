@@ -3,6 +3,7 @@ import { IconProps } from "./type";
 
 /**
  * Link/URL/hyperlink
+ * @param {IconProps} props
  * @prop width: number (24)
  * @prop height: number (12)
  * @prop color: string (black)
