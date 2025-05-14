@@ -1,0 +1,27 @@
+{
+  "name": "jarm-icons",
+  "description": "A lightweight collection of customizable React SVG icons",
+  "version": "1.0.2",
+  "license": "MIT",
+  "keywords": [
+    "React",
+    "Icons"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "typescript": "^5.8.3"
+  }
+}
