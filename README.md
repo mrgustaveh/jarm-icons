@@ -40,7 +40,7 @@ This package supports tree-shaking. Import only the icons you use to keep your b
 ### Contributing
 
 1. Create a corresponding React component for your icon(s) in `src/icons`
-2. Make sure to use valid jsx - so replace `fill-rule` with `fillRule` or `stroke-width` with `strokeWidth` e.t.c
+2. Make sure to use valid jsx syntax - so replace `fill-rule` with `fillRule` or `stroke-width` with `strokeWidth` e.t.c
 3. Export it in `src/index.ts`
 4. Run `npm run build`
 5. Submit a PR
