@@ -40,9 +40,10 @@ This package supports tree-shaking. Import only the icons you use to keep your b
 ### Contributing
 
 1. Create a corresponding React component for your icon(s) in `src/icons`
-2. Export it in `src/index.ts`
-3. Run `npm run build`
-4. Submit a PR
+2. Make sure to use valid jsx - so replace `fill-rule` with `fillRule` or `stroke-width` with `strokeWidth` e.t.c
+3. Export it in `src/index.ts`
+4. Run `npm run build`
+5. Submit a PR
 
 ![npm](https://img.shields.io/npm/v/jarm-icons)
 ![downloads](https://img.shields.io/npm/dm/jarm-icons)
