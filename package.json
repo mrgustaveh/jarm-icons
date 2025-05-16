@@ -1,10 +1,17 @@
 {
   "name": "jarm-icons",
   "description": "A lightweight collection of customizable React SVG icons",
-  "version": "1.0.6",
-  "author": {"name": "mrgustaveh","url": "https://mrgustaveh.github.io"},
-  "maintainers": ["mrgustaveh"],
-  "repository": {"url": "https://github.com/mrgustaveh/jarm-icons"},
+  "version": "1.0.62",
+  "author": {
+    "name": "mrgustaveh",
+    "url": "https://mrgustaveh.github.io"
+  },
+  "maintainers": [
+    "mrgustaveh"
+  ],
+  "repository": {
+    "url": "https://github.com/mrgustaveh/jarm-icons"
+  },
   "homepage": "https://github.com/mrgustaveh/jarm-icons",
   "license": "MIT",
   "keywords": [
