@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Arrow right up/launch
- * @param {IconProps} props
- * @prop width: number (8)
- * @prop height: number (8)
- * @prop color: string (black)
- */
 const ArrowRightUp: FC<IconProps> = ({
   width = 8,
   height = 8,
@@ -27,4 +20,11 @@ const ArrowRightUp: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Arrow right up/launch
+ * @param {IconProps} props
+ * @property width: number (8)
+ * @property height: number (8)
+ * @property color: string (black)
+ */
 export default memo(ArrowRightUp);

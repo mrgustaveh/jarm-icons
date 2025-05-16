@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Options/three-dots circle/more
- * @param {IconProps} props
- * @prop width: number (18)
- * @prop height: number (18)
- * @prop color: string (black)
- */
 export const Options: FC<IconProps> = ({
   width = 18,
   height = 18,
@@ -33,4 +26,11 @@ export const Options: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Options/three-dots circle/more
+ * @param {IconProps} props
+ * @property width: number (18)
+ * @property height: number (18)
+ * @property color: string (black)
+ */
 export default memo(Options);

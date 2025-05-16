@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Notification/bell
- * @param {IconProps} props
- * @prop width: number (18)
- * @prop height: number (20)
- * @prop color: string (black)
- */
 const NotificationBell: FC<IconProps> = ({
   width = 18,
   height = 20,
@@ -27,4 +20,11 @@ const NotificationBell: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Notification/bell
+ * @param {IconProps} props
+ * @property width: number (18)
+ * @property height: number (20)
+ * @property color: string (black)
+ */
 export default memo(NotificationBell);

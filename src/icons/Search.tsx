@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Search/find
- * @param {IconProps} props
- * @prop width: number (22)
- * @prop height: number (22)
- * @prop color: string (black)
- */
 const Rotate: FC<IconProps> = ({
   width = 22,
   height = 22,
@@ -30,4 +23,11 @@ const Rotate: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Search/find
+ * @param {IconProps} props
+ * @property width: number (22)
+ * @property height: number (22)
+ * @property color: string (black)
+ */
 export default memo(Rotate);

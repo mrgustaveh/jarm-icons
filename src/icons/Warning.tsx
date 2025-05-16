@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Warning/Triangle with exclamation mark
- * @param {IconProps} props
- * @prop width: number (20)
- * @prop height: number (18)
- * @prop color: string (black)
- */
 const Warning: FC<IconProps> = ({
   width = 20,
   height = 18,
@@ -27,4 +20,11 @@ const Warning: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Warning/error/triangle with exclamation mark
+ * @param {IconProps} props
+ * @property width: number (20)
+ * @property height: number (18)
+ * @property color: string (black)
+ */
 export default memo(Warning);

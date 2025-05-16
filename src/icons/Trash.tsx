@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Trash/bin
- * @param {IconProps} props
- * @prop width: number (18)
- * @prop height: number (20)
- * @prop color: string (black)
- */
 const Trash: FC<IconProps> = ({ width = 18, height = 20, color = "black" }) => (
   <svg
     width={width}
@@ -27,4 +20,11 @@ const Trash: FC<IconProps> = ({ width = 18, height = 20, color = "black" }) => (
   </svg>
 );
 
+/**
+ * Trash/bin/delete
+ * @param {IconProps} props
+ * @property width: number (18)
+ * @property height: number (20)
+ * @property color: string (black)
+ */
 export default memo(Trash);

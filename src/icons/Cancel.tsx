@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Cancel
- * @param {IconProps} props
- * @prop width: number (10)
- * @prop height: number (10)
- * @prop color: string (black)
- */
 const Cancel: FC<IconProps> = ({
   width = 10,
   height = 10,
@@ -31,4 +24,11 @@ const Cancel: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Cancel
+ * @param {IconProps} props
+ * @property width: number (10)
+ * @property height: number (10)
+ * @property color: string (black)
+ */
 export default memo(Cancel);

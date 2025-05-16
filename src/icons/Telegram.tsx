@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Telegram
- * @param {IconProps} props
- * @prop width: number (16)
- * @prop height: number (13)
- * @prop color: string (black)
- */
 const Telegram: FC<IconProps> = ({
   width = 16,
   height = 13,
@@ -27,4 +20,11 @@ const Telegram: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Telegram
+ * @param {IconProps} props
+ * @property width: number (16)
+ * @property height: number (13)
+ * @property color: string (black)
+ */
 export default memo(Telegram);

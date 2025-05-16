@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Link/URL/hyperlink
- * @param {IconProps} props
- * @prop width: number (24)
- * @prop height: number (12)
- * @prop color: string (black)
- */
 const Link: FC<IconProps> = ({ width = 24, height = 12, color = "black" }) => (
   <svg
     width={width}
@@ -24,4 +17,11 @@ const Link: FC<IconProps> = ({ width = 24, height = 12, color = "black" }) => (
   </svg>
 );
 
+/**
+ * Link/URL/hyperlink
+ * @param {IconProps} props
+ * @property width: number (24)
+ * @property height: number (12)
+ * @property color: string (black)
+ */
 export default memo(Link);

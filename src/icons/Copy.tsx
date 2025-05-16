@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Copy
- * @param {IconProps} props
- * @prop width: number (14)
- * @prop height: number (14)
- * @prop color: string (black)
- */
 const Copy: FC<IconProps> = ({ width = 14, height = 14, color = "black" }) => (
   <svg
     width={width}
@@ -23,4 +16,11 @@ const Copy: FC<IconProps> = ({ width = 14, height = 14, color = "black" }) => (
   </svg>
 );
 
+/**
+ * Copy
+ * @param {IconProps} props
+ * @property width: number (14)
+ * @property height: number (14)
+ * @property color: string (black)
+ */
 export default memo(Copy);

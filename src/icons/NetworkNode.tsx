@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Network/node
- * @param {IconProps} props
- * @prop width: number (24)
- * @prop height: number (24)
- * @prop color: string (black)
- */
 const NetworkNode: FC<IconProps> = ({
   width = 24,
   height = 24,
@@ -27,4 +20,11 @@ const NetworkNode: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Network/node
+ * @param {IconProps} props
+ * @property width: number (24)
+ * @property height: number (24)
+ * @property color: string (black)
+ */
 export default memo(NetworkNode);

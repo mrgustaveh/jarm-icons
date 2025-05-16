@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Clipboard
- * @param {IconProps} props
- * @prop width: number (14)
- * @prop height: number (16)
- * @prop color: string (black)
- */
 const Clipboard: FC<IconProps> = ({
   width = 14,
   height = 16,
@@ -39,4 +32,11 @@ const Clipboard: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Clipboard
+ * @param {IconProps} props
+ * @property width: number (14)
+ * @property height: number (16)
+ * @property color: string (black)
+ */
 export default memo(Clipboard);

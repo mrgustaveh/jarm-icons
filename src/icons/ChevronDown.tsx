@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Chevron down
- * @param {IconProps} props
- * @prop width: number (10)
- * @prop height: number (6)
- * @prop color: string (black)
- */
 const ChevronDown: FC<IconProps> = ({
   width = 10,
   height = 6,
@@ -28,4 +21,11 @@ const ChevronDown: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Chevron down
+ * @param {IconProps} props
+ * @property width: number (10)
+ * @property height: number (6)
+ * @property color: string (black)
+ */
 export default memo(ChevronDown);

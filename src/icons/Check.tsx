@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Check
- * @param {IconProps} props
- * @prop width: number (16)
- * @prop height: number (16)
- * @prop color: string (black)
- */
 const Check: FC<IconProps> = ({ width = 16, height = 16, color = "black" }) => (
   <svg
     width={width ?? 16}
@@ -25,4 +18,11 @@ const Check: FC<IconProps> = ({ width = 16, height = 16, color = "black" }) => (
   </svg>
 );
 
+/**
+ * Check
+ * @param {IconProps} props
+ * @property width: number (16)
+ * @property height: number (16)
+ * @property color: string (black)
+ */
 export default memo(Check);

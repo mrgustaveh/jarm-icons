@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Log out/Log off/Power off
- * @param {IconProps} props
- * @prop width: number (20)
- * @prop height: number (22)
- * @prop color: string (black)
- */
 const LogOut: FC<IconProps> = ({
   width = 20,
   height = 22,
@@ -30,4 +23,11 @@ const LogOut: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Log out/Log off/Power off
+ * @param {IconProps} props
+ * @property width: number (20)
+ * @property height: number (22)
+ * @property color: string (black)
+ */
 export default memo(LogOut);

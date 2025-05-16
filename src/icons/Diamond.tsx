@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Diamond/premium
- * @param {IconProps} props
- * @prop width: number (20)
- * @prop height: number (19)
- * @prop color: string (black)
- */
 const Diamond: FC<IconProps> = ({
   width = 20,
   height = 19,
@@ -27,4 +20,11 @@ const Diamond: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Diamond/premium
+ * @param {IconProps} props
+ * @property width: number (20)
+ * @property height: number (19)
+ * @property color: string (black)
+ */
 export default memo(Diamond);

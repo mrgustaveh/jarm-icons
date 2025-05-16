@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Email/at/@
- * @param {IconProps} props
- * @prop width: number (22)
- * @prop height: number (22)
- * @prop color: string (black)
- */
 const Email: FC<IconProps> = ({ width = 22, height = 22, color = "black" }) => (
   <svg
     width={width}
@@ -26,4 +19,11 @@ const Email: FC<IconProps> = ({ width = 22, height = 22, color = "black" }) => (
   </svg>
 );
 
+/**
+ * Email/at/@
+ * @param {IconProps} props
+ * @property width: number (22)
+ * @property height: number (22)
+ * @property color: string (black)
+ */
 export default memo(Email);

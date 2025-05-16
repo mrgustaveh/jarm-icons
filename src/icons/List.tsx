@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * List
- * @param {IconProps} props
- * @prop width: number (18)
- * @prop height: number (12)
- * @prop color: string (black)
- */
 const List: FC<IconProps> = ({ width = 18, height = 12, color = "black" }) => (
   <svg
     width={width}
@@ -26,4 +19,11 @@ const List: FC<IconProps> = ({ width = 18, height = 12, color = "black" }) => (
   </svg>
 );
 
+/**
+ * List
+ * @param {IconProps} props
+ * @property width: number (18)
+ * @property height: number (12)
+ * @property color: string (black)
+ */
 export default memo(List);

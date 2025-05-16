@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Plus (with solid background)
- * @param {IconProps} props
- * @prop width: number (18)
- * @prop height: number (18)
- * @prop color: string (black)
- */
 const PlusSolid: FC<IconProps> = ({
   width = 18,
   height = 18,
@@ -29,4 +22,11 @@ const PlusSolid: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Plus (with solid background)
+ * @param {IconProps} props
+ * @property width: number (18)
+ * @property height: number (18)
+ * @property color: string (black)
+ */
 export default memo(PlusSolid);

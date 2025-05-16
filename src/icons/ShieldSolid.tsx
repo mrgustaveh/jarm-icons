@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Shield solid (shield with solid background)
- * @param {IconProps} props
- * @prop width: number (20)
- * @prop height: number (24)
- * @prop color: string (black)
- */
 const ShieldSolid: FC<IconProps> = ({
   width = 20,
   height = 24,
@@ -27,4 +20,11 @@ const ShieldSolid: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Shield solid (shield with solid background)
+ * @param {IconProps} props
+ * @property width: number (20)
+ * @property height: number (24)
+ * @property color: string (black)
+ */
 export default memo(ShieldSolid);

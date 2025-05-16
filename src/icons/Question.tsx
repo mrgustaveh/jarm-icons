@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Question/FAQ/info
- * @param {IconProps} props
- * @prop width: number (16)
- * @prop height: number (16)
- * @prop color: string (black)
- */
 const Question: FC<IconProps> = ({
   width = 16,
   height = 16,
@@ -27,4 +20,11 @@ const Question: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Question/FAQ/info
+ * @param {IconProps} props
+ * @property width: number (16)
+ * @property height: number (16)
+ * @property color: string (black)
+ */
 export default memo(Question);

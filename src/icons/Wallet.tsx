@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Wallet
- * @param {IconProps} props
- * @prop width: number (20)
- * @prop height: number (18)
- * @prop color: string (black)
- */
 const Wallet: FC<IconProps> = ({
   width = 20,
   height = 18,
@@ -33,4 +26,11 @@ const Wallet: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Wallet
+ * @param {IconProps} props
+ * @property width: number (20)
+ * @property height: number (18)
+ * @property color: string (black)
+ */
 export default memo(Wallet);

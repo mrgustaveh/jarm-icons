@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Angles down/double chevrons down
- * @param {IconProps} props
- * @prop width: number (10)
- * @prop height: number (12)
- * @prop color: string (black)
- */
 const AnglesDown: FC<IconProps> = ({
   width = 10,
   height = 12,
@@ -30,4 +23,11 @@ const AnglesDown: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Angles down/double chevrons down
+ * @param {IconProps} props
+ * @property width: number (10)
+ * @property height: number (12)
+ * @property color: string (black)
+ */
 export default memo(AnglesDown);

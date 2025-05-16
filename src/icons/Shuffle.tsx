@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Shuffle
- * @param {IconProps} props
- * @prop width: number (22)
- * @prop height: number (22)
- * @prop color: string (black)
- */
 const Shuffle: FC<IconProps> = ({
   width = 22,
   height = 22,
@@ -59,4 +52,11 @@ const Shuffle: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Shuffle
+ * @param {IconProps} props
+ * @property width: number (22)
+ * @property height: number (22)
+ * @property color: string (black)
+ */
 export default memo(Shuffle);

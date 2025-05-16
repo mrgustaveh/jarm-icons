@@ -1,13 +1,6 @@
 import { FC, memo } from "react";
 import { IconProps } from "./type";
 
-/**
- * Exchange
- * @param {IconProps} props
- * @prop width: number (20)
- * @prop height: number (20)
- * @prop color: string (black)
- */
 const Exchange: FC<IconProps> = ({
   width = 20,
   height = 20,
@@ -37,4 +30,11 @@ const Exchange: FC<IconProps> = ({
   </svg>
 );
 
+/**
+ * Exchange
+ * @param {IconProps} props
+ * @property width: number (20)
+ * @property height: number (20)
+ * @property color: string (black)
+ */
 export default memo(Exchange);
